@@ -39,8 +39,16 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    '@nuxt/content'
+    '@nuxt/content',
+    '@nuxtjs/sitemap'
   ],
+  sitemap: {
+    generate: true,
+    hostname: 'https://upbeat-nightingale-c93cfb.netlify.app/',
+    exclude: [
+      '/profile'
+    ]
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
