@@ -1,7 +1,4 @@
 export default {
-  // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
-  ssr: true,
-
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
@@ -14,7 +11,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'Yu want to study Nuxt SEO in DE' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
